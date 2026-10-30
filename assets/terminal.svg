@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" font-family="ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace">
+  <rect x="0" y="0" width="1200" height="360" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <path d="M12 0 h1176 a12 12 0 0 1 12 12 v32 h-1200 v-32 a12 12 0 0 1 12-12 z" fill="#1c2128"/>
+  <line x1="0" y1="44" x2="1200" y2="44" stroke="#30363d" stroke-width="1"/>
+  <circle cx="28" cy="22" r="7" fill="#ff5f56"/>
+  <circle cx="52" cy="22" r="7" fill="#ffbd2e"/>
+  <circle cx="76" cy="22" r="7" fill="#27c93f"/>
+  <text x="600" y="28" text-anchor="middle" fill="#8b949e" font-size="15">mike22890@arch: ~</text>
+
+  <!-- prompt 1 -->
+  <text x="32" y="86" font-size="17"><tspan fill="#3fb950">mike22890@arch</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">sudo systemctl start life.service</tspan></text>
+
+  <!-- boot lines -->
+  <text x="32" y="118" font-size="17"><tspan fill="#3fb950" font-weight="bold">[  OK  ]</tspan><tspan fill="#e6edf3" dx="18">Mounted /dev/media</tspan><tspan fill="#8b949e" dx="8">— Decache v21.x · 20+ releases · pure-stdlib backend, zero-build frontend</tspan></text>
+  <text x="32" y="148" font-size="17"><tspan fill="#3fb950" font-weight="bold">[  OK  ]</tspan><tspan fill="#e6edf3" dx="18">Loaded agent-stack</tspan><tspan fill="#8b949e" dx="8">— LangGraph · MCP · RAG · OWASP Agentic AI Top 10 guardrails</tspan></text>
+  <text x="32" y="178" font-size="17"><tspan fill="#3fb950" font-weight="bold">[  OK  ]</tspan><tspan fill="#e6edf3" dx="18">Loaded skills</tspan><tspan fill="#8b949e" dx="8">— 12 domains × zh/en · AstrBot doc-vision plugin</tspan></text>
+  <text x="32" y="208" font-size="17"><tspan fill="#d29922" font-weight="bold">[ WARN ]</tspan><tspan fill="#e6edf3" dx="18">contribution grid 82% empty</tspan><tspan fill="#8b949e" dx="8">— snake is hungry. feed with daily commits.</tspan></text>
+  <text x="32" y="238" font-size="17"><tspan fill="#3fb950" font-weight="bold">[  OK  ]</tspan><tspan fill="#e6edf3" dx="18">Workflow active</tspan><tspan fill="#8b949e" dx="8">— AI-assisted dev, commit-level review enabled</tspan></text>
+
+  <!-- prompt 2 + blinking cursor -->
+  <text x="32" y="278" font-size="17"><tspan fill="#3fb950">mike22890@arch</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan></text>
+  <rect x="245" y="264" width="10" height="20" fill="#58a6ff">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;0.75;0.75" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
